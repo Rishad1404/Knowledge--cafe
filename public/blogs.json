@@ -1,0 +1,43 @@
+[
+    {
+      "id": 12345,
+      "cover_image": "https://i.imgur.com/2NTMnWf.jpeg",
+      "title": "The Secret Garden",
+      "author": "Jane Doe",
+      "img": "https://i.imgur.com/xwQxabp.png",
+      "posted_date": "January 15, 2024",
+      "reading_time": 10,
+      "hashtags": ["#fiction", "#mystery", "#garden"]
+    },
+    {
+      "id": 54321,
+      "cover_image": "https://i.imgur.com/HrKOiqg.png",
+      "title": "The Cosmic Voyage",
+      "author": "John Smith",
+      "img": "https://i.imgur.com/xN7Jnae.jpeg",
+      "posted_date": "February 3, 2024",
+      "reading_time": 15,
+      "hashtags": ["#sciencefiction", "#space", "#adventure"]
+    },
+    {
+      "id": 98765,
+      "cover_image": "https://i.imgur.com/iVDgPn5.png",
+      "title": "Echoes of Eternity",
+      "author": "Emily Johnson",
+      "img": "https://i.imgur.com/gQKMeO0.jpeg",
+      "posted_date": "March 7, 2024",
+      "reading_time": 20,
+      "hashtags": ["#fantasy", "#magic", "#quest"]
+    },
+    {
+      "id": 24680,
+      "cover_image": "https://i.imgur.com/7ZULGhx.jpeg",
+      "title": "The Art of Cooking",
+      "author": "Michael Lee",
+      "img": "https://i.imgur.com/HdPHEeH.jpeg",
+      "posted_date": "February 20, 2024",
+      "reading_time": 30,
+      "hashtags": ["#cooking", "#recipes", "#food"]
+    }
+  ]
+  
