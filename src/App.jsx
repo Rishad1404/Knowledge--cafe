@@ -13,9 +13,13 @@ const handleAddToBookmark=blog=>{
   setBookmarks(newBookMarks)
 }
 
-const handleMarkAsRead=time=>{
+const handleMarkAsRead=(id,time)=>{
   const newReadingTime=readingTime+time;
   setReadingTime(newReadingTime)
+
+  // Remove the read blog from Bookmark
+  const remainingBookmarks=bookmarks.filter(bookmark=>bookmark.id!==id)
+  setBookmarks(remainingBookmarks);
 }
 
   return (

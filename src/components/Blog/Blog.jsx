@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import { CiBookmark } from "react-icons/ci";
 const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
-    const {title,cover_image,reading_time,img,author,posted_date,hashtags}=blog;
+    const {id,title,cover_image,reading_time,img,author,posted_date,hashtags}=blog;
     return (
         <div className='mb-16 space-y-3'>
             <img className='w-full mb-4 rounded-lg' src={cover_image} alt={`Cover picture of the title ${title}`} />
@@ -27,7 +27,7 @@ const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
                 }
             </p>
             <button 
-            onClick={()=>handleMarkAsRead(reading_time)}
+            onClick={()=>handleMarkAsRead(id,reading_time)}
              className='text-purple-600 font-bold underline'>Mark as Read</button>
         </div>
     );
