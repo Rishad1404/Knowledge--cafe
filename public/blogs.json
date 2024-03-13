@@ -1,6 +1,6 @@
 [
     {
-      "id": 12345,
+      "id": 1,
       "cover_image": "https://i.imgur.com/2NTMnWf.jpeg",
       "title": "The Secret Garden",
       "author": "Jane Doe",
@@ -10,7 +10,7 @@
       "hashtags": ["#fiction", "#mystery", "#garden"]
     },
     {
-      "id": 54321,
+      "id": 2,
       "cover_image": "https://i.imgur.com/HrKOiqg.png",
       "title": "The Cosmic Voyage",
       "author": "John Smith",
@@ -20,7 +20,7 @@
       "hashtags": ["#sciencefiction", "#space", "#adventure"]
     },
     {
-      "id": 98765,
+      "id": 3,
       "cover_image": "https://i.imgur.com/iVDgPn5.png",
       "title": "Echoes of Eternity",
       "author": "Emily Johnson",
@@ -30,7 +30,7 @@
       "hashtags": ["#fantasy", "#magic", "#quest"]
     },
     {
-      "id": 24680,
+      "id": 4,
       "cover_image": "https://i.imgur.com/7ZULGhx.jpeg",
       "title": "The Art of Cooking",
       "author": "Michael Lee",
